@@ -1,0 +1,1423 @@
+<NexposeReport version="1.0">
+<scans>
+<scan id="10656" name="Docker-VMware (Jumbo Frame) VLAN 104" startTime="20170509T163000405" endTime="20170509T163456519" status="finished"/>
+</scans><nodes>
+<node address="10.4.0.53" status="alive">
+<names>
+<name>bits-docker17.broadinstitute.org</name>
+</names>
+<fingerprints>
+<os  certainty="1.00" vendor="Red Hat" family="Linux" product="Enterprise Linux" version="7.2" arch="x86_64"/>
+<os  certainty="0.68" device-class="General" vendor="Linux" family="Linux" product="Linux" version="3.14"/>
+<os  certainty="0.67" device-class="General" vendor="Linux" family="Linux" product="Linux" version="3.1"/>
+<os  certainty="0.65" device-class="General" vendor="Linux" family="Linux" product="Linux" version="2.6.32"/>
+<os  certainty="0.65" device-class="General" vendor="Linux" family="Linux" product="Linux" version="3.1"/>
+<os  certainty="0.65" device-class="General" vendor="Linux" family="Linux" product="Linux" version="3.2"/>
+<os  certainty="0.64" device-class="Web cam" vendor="AXIS" family="Linux" product="Linux" version="2.6.17"/>
+<os  certainty="0.64" device-class="General" vendor="Linux" family="Linux" product="Linux" version="3.11"/>
+<os  certainty="0.64" device-class="General" vendor="Linux" family="Linux" product="Linux" version="3.4"/>
+<os  certainty="0.64" device-class="General" vendor="Linux" family="Linux" product="Linux" version="3.7"/>
+<os  certainty="0.64" device-class="Router" vendor="MikroTik" family="Linux" product="Linux" version="6.7"/>
+</fingerprints>
+<software>
+<fingerprint  certainty="1.00" vendor="Linux" product="GConf2" version="3.2.6-8.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="ImageMagick" version="6.7.8.9-13.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="NetworkManager" version="1:1.0.6-29.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="NetworkManager-config-server" version="1:1.0.6-29.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="NetworkManager-libnm" version="1:1.0.6-29.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="NetworkManager-team" version="1:1.0.6-29.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="NetworkManager-tui" version="1:1.0.6-29.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="OpenEXR-libs" version="1.7.1-7.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="Red_Hat_Enterprise_Linux-Release_Notes-7-en-US" version="7-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="ack" version="2.12-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="acl" version="2.2.51-12.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="adwaita-cursor-theme" version="3.14.1-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="adwaita-icon-theme" version="3.14.1-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="aic94xx-firmware" version="30-6.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="alsa-firmware" version="1.0.28-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="alsa-lib" version="1.0.28-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="alsa-tools-firmware" version="1.0.28-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="apr" version="1.4.8-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="apr-util" version="1.5.2-6.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="at-spi2-atk" version="2.8.1-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="at-spi2-core" version="2.8.0-6.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="atk" version="2.14.0-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="audit" version="2.4.1-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="audit-libs" version="2.4.1-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="audit-libs-python" version="2.4.1-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="augeas-libs" version="1.4.0-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="authconfig" version="6.2.8-10.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="autofs" version="1:5.0.7-54.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="autogen-libopts" version="5.18-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="avahi-autoipd" version="0.6.31-15.el7_2.1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="avahi-libs" version="0.6.31-15.el7_2.1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="basesystem" version="10.0-7.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="bash" version="4.2.46-19.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="bind-libs" version="32:9.9.4-29.el7_2.3"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="bind-libs-lite" version="32:9.9.4-29.el7_2.3"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="bind-license" version="32:9.9.4-29.el7_2.3"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="bind-utils" version="32:9.9.4-29.el7_2.3"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="binutils" version="2.23.52.0.1-55.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="biosdevname" version="0.6.2-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="bridge-utils" version="1.5-9.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="btrfs-progs" version="3.19.1-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="bzip2-libs" version="1.0.6-13.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="c-ares" version="1.10.0-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="ca-certificates" version="2015.2.6-70.1.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="cairo" version="1.14.2-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="cairo-gobject" version="1.14.2-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="checkpolicy" version="2.1.12-6.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="chkconfig" version="1.3.61-5.el7_2.1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="colord-libs" version="1.2.7-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="coreutils" version="8.22-15.el7_2.1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="cpio" version="2.11-24.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="cpp" version="4.8.5-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="cracklib" version="2.9.0-11.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="cracklib-dicts" version="2.9.0-11.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="cronie" version="1.4.11-14.el7_2.1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="cronie-anacron" version="1.4.11-14.el7_2.1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="crontabs" version="1.11-6.20121102git.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="cryptsetup-libs" version="1.6.7-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="cups-libs" version="1:1.6.3-22.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="curl" version="7.29.0-25.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="cyrus-sasl-gssapi" version="2.1.26-20.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="cyrus-sasl-lib" version="2.1.26-20.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="dbus" version="1:1.6.12-13.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="dbus-glib" version="0.100-7.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="dbus-libs" version="1:1.6.12-13.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="dbus-python" version="1.1.1-9.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="dejavu-fonts-common" version="2.33-6.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="dejavu-sans-mono-fonts" version="2.33-6.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="desktop-file-utils" version="0.22-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="device-mapper" version="7:1.02.107-5.el7_2.2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="device-mapper-event" version="7:1.02.107-5.el7_2.2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="device-mapper-event-libs" version="7:1.02.107-5.el7_2.2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="device-mapper-libs" version="7:1.02.107-5.el7_2.2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="device-mapper-persistent-data" version="0.5.5-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="dhclient" version="12:4.2.5-42.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="dhcp-common" version="12:4.2.5-42.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="dhcp-libs" version="12:4.2.5-42.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="diffutils" version="3.3-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="dmidecode" version="1:2.12-9.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="dnsmasq" version="2.66-14.el7_1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="docker" version="1.9.1-40.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="docker-common" version="1.9.1-40.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="docker-forward-journald" version="1.9.1-40.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="docker-selinux" version="1.9.1-40.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="dos2unix" version="6.0.3-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="dracut" version="033-360.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="dracut-config-rescue" version="033-360.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="dracut-network" version="033-360.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="e2fsprogs" version="1.42.9-7.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="e2fsprogs-libs" version="1.42.9-7.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="ebtables" version="2.0.10-13.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="elfutils-libelf" version="0.163-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="elfutils-libs" version="0.163-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="emacs" version="1:24.3-18.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="emacs-common" version="1:24.3-18.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="emacs-filesystem" version="1:24.3-18.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="epel-release" version="7-6"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="ethtool" version="2:3.15-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="expat" version="2.1.0-8.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="facter" version="1:2.4.6-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="file" version="5.11-31.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="file-libs" version="5.11-31.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="filesystem" version="3.2-20.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="findutils" version="1:4.5.11-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="fipscheck" version="1.4.1-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="fipscheck-lib" version="1.4.1-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="firewalld" version="0.3.9-14.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="fontconfig" version="2.10.95-7.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="fontpackages-filesystem" version="1.44-8.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="foreman-release" version="1.7.5-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="freetype" version="2.4.11-11.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="fuse" version="2.9.2-6.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="fxload" version="2002_04_11-16.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="ganglia" version="3.7.2-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="ganglia-gmond" version="3.7.2-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="gawk" version="4.0.2-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="gcc" version="4.8.5-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="gdbm" version="1.10-8.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="gdk-pixbuf2" version="2.31.6-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="gettext" version="0.18.2.1-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="gettext-libs" version="0.18.2.1-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="ghostscript" version="9.07-18.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="ghostscript-fonts" version="5.50-32.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="giflib" version="4.1.6-9.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="git" version="1.8.3.1-6.el7_2.1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="glib-networking" version="2.42.0-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="glib2" version="2.42.2-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="glibc" version="2.17-106.el7_2.6"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="glibc-common" version="2.17-106.el7_2.6"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="glibc-devel" version="2.17-106.el7_2.6"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="glibc-headers" version="2.17-106.el7_2.6"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="gmp" version="1:6.0.0-12.el7_1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="gnupg2" version="2.0.22-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="gnutls" version="3.3.8-14.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="gobject-introspection" version="1.42.0-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="gpg-pubkey" version="fd431d51-4ae0493b"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="gpgme" version="1.3.2-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="gpm-libs" version="1.20.7-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="graphite2" version="1.3.6-1.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="grep" version="2.20-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="groff-base" version="1.22.2-8.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="grub2" version="1:2.02-0.34.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="grub2-tools" version="1:2.02-0.34.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="grubby" version="8.28-17.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="gsettings-desktop-schemas" version="3.14.2-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="gssproxy" version="0.4.1-7.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="gtk3" version="3.14.13-16.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="gzip" version="1.5-8.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="hardlink" version="1:1.0-19.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="harfbuzz" version="0.9.36-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="hesiod" version="3.2.1-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="hicolor-icon-theme" version="0.12-7.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="hiera" version="1:1.3.4-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="hostname" version="3.13-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="htop" version="2.0.1-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="hwdata" version="0.252-8.1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="hwloc" version="1.7-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="hwloc-libs" version="1.7-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="ilmbase" version="1.0.3-7.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="info" version="5.1-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="initscripts" version="9.49.30-1.el7_2.2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="iotop" version="0.6-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="iproute" version="3.10.0-54.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="iprutils" version="2.4.8-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="iptables" version="1.4.21-16.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="iputils" version="20121221-7.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="irqbalance" version="3:1.0.7-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="ivtv-firmware" version="2:20080701-26.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="iwl100-firmware" version="39.31.5.1-43.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="iwl1000-firmware" version="1:39.31.5.1-43.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="iwl105-firmware" version="18.168.6.1-43.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="iwl135-firmware" version="18.168.6.1-43.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="iwl2000-firmware" version="18.168.6.1-43.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="iwl2030-firmware" version="18.168.6.1-43.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="iwl3160-firmware" version="22.0.7.0-43.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="iwl3945-firmware" version="15.32.2.9-43.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="iwl4965-firmware" version="228.61.2.24-43.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="iwl5000-firmware" version="8.83.5.1_1-43.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="iwl5150-firmware" version="8.24.2.2-43.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="iwl6000-firmware" version="9.221.4.1-43.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="iwl6000g2a-firmware" version="17.168.5.3-43.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="iwl6000g2b-firmware" version="17.168.5.2-43.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="iwl6050-firmware" version="41.28.5.1-43.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="iwl7260-firmware" version="22.0.7.0-43.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="iwl7265-firmware" version="22.0.7.0-43.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="jansson" version="2.4-6.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="jasper-libs" version="1.900.1-29.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="jbigkit-libs" version="2.0-11.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="json-c" version="0.11-4.el7_0"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="json-glib" version="1.0.2-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="kbd" version="1.15.5-11.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="kbd-legacy" version="1.15.5-11.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="kbd-misc" version="1.15.5-11.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="kernel" version="3.10.0-327.18.2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="kernel-devel" version="3.10.0-327.18.2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="kernel-headers" version="3.10.0-327.18.2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="kernel-tools" version="3.10.0-327.18.2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="kernel-tools-libs" version="3.10.0-327.18.2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="kexec-tools" version="2.0.7-38.el7_2.1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="keyutils" version="1.5.8-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="keyutils-libs" version="1.5.8-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="kmod" version="20-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="kmod-libs" version="20-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="kpartx" version="0.4.9-85.el7_2.4"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="krb5-libs" version="1.13.2-12.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="krb5-workstation" version="1.13.2-12.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="lcms2" version="2.6-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="less" version="458-9.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libICE" version="1.0.9-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libSM" version="1.2.2-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libX11" version="1.6.3-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libX11-common" version="1.6.3-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libXau" version="1.0.8-2.1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libXaw" version="1.0.12-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libXcomposite" version="0.4.4-4.1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libXcursor" version="1.1.14-2.1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libXdamage" version="1.1.4-4.1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libXdmcp" version="1.1.1-6.1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libXevie" version="1.0.3-7.1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libXext" version="1.3.3-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libXfixes" version="5.0.1-2.1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libXfont" version="1.5.1-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libXft" version="2.3.2-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libXi" version="1.7.4-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libXinerama" version="1.1.3-2.1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libXmu" version="1.1.2-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libXpm" version="3.5.11-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libXrandr" version="1.4.2-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libXrender" version="0.9.8-2.1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libXt" version="1.1.4-6.1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libXtst" version="1.2.2-2.1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libXxf86vm" version="1.1.3-2.1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libacl" version="2.2.51-12.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libaio" version="0.3.109-13.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libassuan" version="2.1.0-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libattr" version="2.4.46-12.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libbasicobjects" version="0.1.1-25.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libblkid" version="2.23.2-26.el7_2.2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libcap" version="2.22-8.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libcap-ng" version="0.7.5-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libcgroup" version="0.41-8.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libcollection" version="0.6.2-25.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libcom_err" version="1.42.9-7.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libconfuse" version="2.7-7.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libcroco" version="0.6.8-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libcurl" version="7.29.0-25.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libdaemon" version="0.14-7.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libdb" version="5.3.21-19.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libdb-utils" version="5.3.21-19.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libdhash" version="0.4.3-25.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libdnet" version="1.12-13.1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libdrm" version="2.4.60-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libedit" version="3.0-12.20121213cvs.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libestr" version="0.1.9-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libevent" version="2.0.21-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libffi" version="3.0.13-16.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libfontenc" version="1.1.2-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libgcc" version="4.8.5-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libgcrypt" version="1.5.3-12.el7_1.1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libgnome-keyring" version="3.8.0-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libgomp" version="4.8.5-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libgpg-error" version="1.12-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libgudev1" version="219-19.el7_2.9"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libgusb" version="0.1.6-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libicu" version="50.1.2-15.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libidn" version="1.28-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libini_config" version="1.2.0-25.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libipa_hbac" version="1.13.0-40.el7_2.4"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libjpeg-turbo" version="1.2.90-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libldb" version="1.1.25-1.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="liblockfile" version="1.08-17.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libmnl" version="1.0.3-7.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libmodman" version="2.0.1-8.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libmount" version="2.23.2-26.el7_2.2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libmpc" version="1.0.1-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libmspack" version="0.5-0.1.alpha.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libndp" version="1.2-6.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libnetfilter_conntrack" version="1.0.4-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libnfnetlink" version="1.0.1-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libnfsidmap" version="0.25-12.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libnl" version="1.1.4-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libnl3" version="3.2.21-10.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libnl3-cli" version="3.2.21-10.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libotf" version="0.9.13-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libpath_utils" version="0.2.1-25.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libpcap" version="14:1.5.3-8.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libpciaccess" version="0.13.4-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libpipeline" version="1.2.3-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libpng" version="2:1.5.13-7.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libproxy" version="0.4.11-8.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libpwquality" version="1.2.3-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libref_array" version="0.1.5-25.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="librsvg2" version="2.39.0-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libselinux" version="2.2.2-6.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libselinux-python" version="2.2.2-6.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libselinux-ruby" version="2.2.2-6.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libselinux-utils" version="2.2.2-6.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libsemanage" version="2.1.10-18.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libsemanage-python" version="2.1.10-18.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libsepol" version="2.1.9-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libsmbclient" version="0:4.2.10-6.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libsoup" version="2.48.1-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libss" version="1.42.9-7.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libssh2" version="1.4.3-10.el7_2.1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libsss_idmap" version="1.13.0-40.el7_2.4"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libsss_nss_idmap" version="1.13.0-40.el7_2.4"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libstdc++" version="4.8.5-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libsysfs" version="2.1.0-16.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libtalloc" version="2.1.5-1.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libtasn1" version="3.8-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libtdb" version="1.3.8-1.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libteam" version="1.17-6.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libtevent" version="0.9.26-1.el7_2.1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libthai" version="0.1.14-9.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libtiff" version="4.0.3-14.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libtirpc" version="0.2.4-0.6.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libtool-ltdl" version="2.4.2-21.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libunistring" version="0.9.3-9.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libusbx" version="1.0.15-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libuser" version="0.60-7.el7_1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libutempter" version="1.1.6-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libuuid" version="2.23.2-26.el7_2.2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libverto" version="0.2.5-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libverto-tevent" version="0.2.5-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libwbclient" version="0:4.2.10-6.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libwmf-lite" version="0.2.8.4-41.el7_1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libxcb" version="1.11-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libxkbfile" version="1.0.8-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libxml2" version="2.9.1-6.el7_2.2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libxml2-python" version="2.9.1-6.el7_2.2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libxshmfence" version="1.2-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libxslt" version="1.1.28-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="libyaml" version="0.1.4-11.el7_0"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="linux-firmware" version="20150904-43.git6ebf5d5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="logrotate" version="3.8.6-7.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="lsscsi" version="0.27-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="lua" version="5.1.4-14.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="lvm2" version="7:2.02.130-5.el7_2.2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="lvm2-libs" version="7:2.02.130-5.el7_2.2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="lzo" version="2.06-8.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="m17n-db" version="1.6.4-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="m17n-lib" version="1.6.4-14.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="m2crypto" version="0.21.1-17.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="mailx" version="12.5-12.el7_0"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="make" version="1:3.82-21.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="man-db" version="2.6.3-9.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="mariadb-libs" version="1:5.5.47-1.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="mesa-libEGL" version="10.6.5-3.20150824.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="mesa-libGL" version="10.6.5-3.20150824.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="mesa-libgbm" version="10.6.5-3.20150824.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="mesa-libglapi" version="10.6.5-3.20150824.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="microcode_ctl" version="2:2.1-12.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="mlocate" version="0.26-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="mozjs17" version="17.0.0-12.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="mpfr" version="3.1.1-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="ncurses" version="5.9-13.20130511.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="ncurses-base" version="5.9-13.20130511.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="ncurses-libs" version="5.9-13.20130511.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="net-tools" version="2.0-0.17.20131004git.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="nettle" version="2.7.1-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="newt" version="0.52.15-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="newt-python" version="0.52.15-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="nfs-utils" version="1:1.3.0-0.21.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="nmap-ncat" version="2:6.40-7.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="nspr" version="4.11.0-1.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="nss" version="3.21.0-9.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="nss-softokn" version="3.16.2.3-14.2.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="nss-softokn-freebl" version="3.16.2.3-14.2.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="nss-sysinit" version="3.21.0-9.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="nss-tools" version="3.21.0-9.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="nss-util" version="3.21.0-2.2.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="ntp" version="4.2.6p5-22.el7_2.1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="ntpdate" version="4.2.6p5-22.el7_2.1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="numactl-libs" version="2.0.9-6.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="open-vm-tools" version="9.10.2-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="openldap" version="2.4.40-9.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="openssh" version="6.6.1p1-25.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="openssh-clients" version="6.6.1p1-25.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="openssh-server" version="6.6.1p1-25.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="openssl" version="1:1.0.1e-51.el7_2.5"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="openssl-libs" version="1:1.0.1e-51.el7_2.5"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="openssl098e" version="0.9.8e-29.el7_2.3"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="os-prober" version="1.58-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="p11-kit" version="0.20.7-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="p11-kit-trust" version="0.20.7-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="pam" version="1.1.8-12.el7_1.1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="pam_krb5" version="2.4.8-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="pango" version="1.36.8-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="parted" version="3.1-23.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="passwd" version="0.79-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="pciutils" version="3.2.1-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="pciutils-libs" version="3.2.1-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="pcre" version="8.32-15.el7_2.1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl" version="4:5.16.3-286.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-Carp" version="1.26-244.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-Encode" version="2.51-7.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-Error" version="1:0.17020-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-Exporter" version="5.68-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-File-Next" version="1.12-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-File-Path" version="2.09-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-File-Temp" version="0.23.01-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-Filter" version="1.49-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-Getopt-Long" version="2.40-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-Git" version="1.8.3.1-6.el7_2.1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-HTTP-Tiny" version="0.033-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-PathTools" version="3.40-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-Pod-Escapes" version="1:1.04-286.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-Pod-Perldoc" version="3.20-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-Pod-Simple" version="1:3.28-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-Pod-Usage" version="1.63-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-Scalar-List-Utils" version="1.27-248.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-Socket" version="2.010-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-Storable" version="2.45-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-TermReadKey" version="2.30-20.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-Text-ParseWords" version="3.29-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-Time-HiRes" version="4:1.9725-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-Time-Local" version="1.2300-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-constant" version="1.27-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-libs" version="4:5.16.3-286.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-macros" version="4:5.16.3-286.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-parent" version="1:0.225-244.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-podlators" version="2.5.1-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-threads" version="1.87-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="perl-threads-shared" version="1.43-6.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="pinentry" version="0.8.1-14.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="pixman" version="0.32.6-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="pkgconfig" version="1:0.27.1-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="plymouth" version="0.8.9-0.24.20140113.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="plymouth-core-libs" version="0.8.9-0.24.20140113.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="plymouth-scripts" version="0.8.9-0.24.20140113.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="policycoreutils" version="2.2.5-20.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="policycoreutils-python" version="2.2.5-20.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="polkit" version="0.112-6.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="polkit-pkla-compat" version="0.1-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="poppler-data" version="0.4.6-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="popt" version="1.13-16.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="postfix" version="2:2.10.1-6.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="ppp" version="2.4.5-33.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="procps-ng" version="3.3.10-5.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="psmisc" version="22.20-9.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="pth" version="2.0.7-23.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="puppet" version="3.8.2-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="puppetlabs-release" version="7-12"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="pyOpenSSL" version="0.13.1-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="pygobject2" version="2.28.6-11.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="pygobject3-base" version="3.14.0-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="pygpgme" version="0.3-9.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="pyliblzma" version="0.5.3-11.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="pytalloc" version="2.1.5-1.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="python" version="2.7.5-34.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="python-IPy" version="0.75-6.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="python-chardet" version="2.2.1-1.el7_1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="python-configobj" version="4.7.2-7.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="python-dateutil" version="1.5-7.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="python-decorator" version="3.4.0-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="python-dmidecode" version="3.10.13-11.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="python-ethtool" version="0.8-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="python-gudev" version="147.2-7.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="python-hwdata" version="1.7.3-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="python-iniparse" version="0.4-9.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="python-kitchen" version="1.1.1-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="python-libs" version="2.7.5-34.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="python-lxml" version="3.2.1-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="python-perf" version="3.10.0-327.18.2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="python-pycurl" version="7.19.0-17.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="python-pyudev" version="0.15-7.el7_2.1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="python-rhsm" version="1.15.4-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="python-slip" version="0.4.0-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="python-slip-dbus" version="0.4.0-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="python-sssdconfig" version="1.13.0-40.el7_2.4"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="python-urlgrabber" version="3.10-7.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="pyxattr" version="0.5.1-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="qrencode-libs" version="3.4.1-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="quota" version="1:4.01-11.el7_2.1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="quota-nls" version="1:4.01-11.el7_2.1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="rdma" version="7.2_4.1_rc6-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="readline" version="6.2-9.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="redhat-logos" version="70.0.3-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="redhat-release-server" version="7.2-9.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="redhat-support-lib-python" version="0.9.7-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="redhat-support-tool" version="0.9.7-6.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="rest" version="0.7.92-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="rhn-check" version="2.0.2-6.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="rhn-client-tools" version="2.0.2-6.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="rhn-setup" version="2.0.2-6.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="rhncfg" version="5.10.74-11.el7sat"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="rhncfg-actions" version="5.10.74-11.el7sat"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="rhncfg-client" version="5.10.74-11.el7sat"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="rhnlib" version="2.5.65-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="rhnsd" version="5.0.13-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="rootfiles" version="8.1-11.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="rpcbind" version="0.2.0-33.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="rpm" version="4.11.3-17.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="rpm-build-libs" version="4.11.3-17.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="rpm-libs" version="4.11.3-17.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="rpm-python" version="4.11.3-17.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="rsync" version="3.0.9-17.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="rsyslog" version="7.4.7-12.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="ruby" version="2.0.0.598-25.el7_1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="ruby-augeas" version="0.5.0-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="ruby-irb" version="2.0.0.598-25.el7_1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="ruby-libs" version="2.0.0.598-25.el7_1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="ruby-shadow" version="1:2.2.0-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="rubygem-bigdecimal" version="1.2.0-25.el7_1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="rubygem-io-console" version="0.4.2-25.el7_1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="rubygem-json" version="1.7.7-25.el7_1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="rubygem-psych" version="2.0.0-25.el7_1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="rubygem-rdoc" version="4.0.0-25.el7_1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="rubygems" version="2.0.14-25.el7_1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="samba-client-libs" version="0:4.2.10-6.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="samba-common" version="0:4.2.10-6.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="samba-common-libs" version="0:4.2.10-6.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="samba-common-tools" version="0:4.2.10-6.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="samba-libs" version="0:4.2.10-6.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="screen" version="4.1.0-0.23.20120314git3c2946.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="sed" version="4.2.2-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="selinux-policy" version="3.13.1-60.el7_2.3"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="selinux-policy-targeted" version="3.13.1-60.el7_2.3"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="setools-libs" version="3.3.7-46.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="setup" version="2.8.71-6.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="shadow-utils" version="2:4.1.5.1-18.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="shared-mime-info" version="1.1-9.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="slang" version="2.2.4-11.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="snappy" version="1.1.0-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="sqlite" version="3.7.17-8.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="sssd" version="1.13.0-40.el7_2.4"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="sssd-ad" version="1.13.0-40.el7_2.4"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="sssd-client" version="1.13.0-40.el7_2.4"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="sssd-common" version="1.13.0-40.el7_2.4"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="sssd-common-pac" version="1.13.0-40.el7_2.4"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="sssd-ipa" version="1.13.0-40.el7_2.4"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="sssd-krb5" version="1.13.0-40.el7_2.4"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="sssd-krb5-common" version="1.13.0-40.el7_2.4"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="sssd-ldap" version="1.13.0-40.el7_2.4"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="sssd-proxy" version="1.13.0-40.el7_2.4"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="subscription-manager" version="1.15.9-15.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="sudo" version="1.8.6p7-17.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="systemd" version="219-19.el7_2.9"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="systemd-libs" version="219-19.el7_2.9"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="systemd-sysv" version="219-19.el7_2.9"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="sysvinit-tools" version="2.88-14.dsf.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="tar" version="2:1.26-29.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="tcp_wrappers" version="7.6-77.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="tcp_wrappers-libs" version="7.6-77.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="tcsh" version="6.18.01-8.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="teamd" version="1.17-6.el7_2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="telnet" version="1:0.17-59.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="tmux" version="1.8-4.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="trousers" version="0.3.13-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="tuned" version="2.5.1-4.el7_2.3"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="tzdata" version="2016d-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="urw-fonts" version="2.4-16.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="usermode" version="1.111-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="ustr" version="1.0.4-16.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="util-linux" version="2.23.2-26.el7_2.2"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="vim-common" version="2:7.4.160-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="vim-enhanced" version="2:7.4.160-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="vim-filesystem" version="2:7.4.160-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="vim-minimal" version="2:7.4.160-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="virt-what" version="1.13-6.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="wget" version="1.14-10.el7_0.1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="which" version="2.20-7.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="wpa_supplicant" version="1:2.0-17.el7_1"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="xdg-utils" version="1.1.0-0.16.20120809git.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="xfsprogs" version="3.2.2-2.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="xkeyboard-config" version="2.14-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="xmlsec1" version="1.2.20-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="xorg-x11-font-utils" version="1:7.5-20.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="xorg-x11-server-Xvfb" version="1.17.2-10.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="xorg-x11-server-common" version="1.17.2-10.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="xorg-x11-xauth" version="1:1.0.9-1.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="xorg-x11-xkb-utils" version="7.7-12.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="xz" version="5.1.2-12alpha.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="xz-libs" version="5.1.2-12alpha.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="yp-tools" version="2.14-3.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="ypbind" version="3:1.37.1-7.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="yum" version="3.4.3-132.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="yum-metadata-parser" version="1.1.4-10.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="yum-plugin-priorities" version="1.1.31-34.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="yum-rhn-plugin" version="2.0.1-5.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="yum-utils" version="1.1.31-34.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="zlib" version="1.2.7-15.el7"/>
+<fingerprint  certainty="1.00" vendor="Linux" product="zsh" version="5.0.2-14.el7"/>
+</software>
+<tests>
+<test id="generic-ip-source-routing-enabled" key="" status="vulnerable-exploited">
+
+<Paragraph>
+	<UnorderedList>
+		<ListItem>The net.ipv4.conf.all.accept_source_route sysctl variable is set to 0, as expected.</ListItem>
+		<ListItem>The net.ipv4.conf.all.forwarding sysctl variable is set to 1, expected 0.</ListItem>
+		<ListItem>The net.ipv4.conf.all.mc_forwarding sysctl variable is set to 0, as expected.</ListItem>
+		<ListItem>The net.ipv4.conf.default.accept_source_route sysctl variable is set to 0, as expected.</ListItem>
+		<ListItem>The net.ipv4.conf.default.forwarding sysctl variable is set to 1, expected 0.</ListItem>
+		<ListItem>The net.ipv4.conf.default.mc_forwarding sysctl variable is set to 0, as expected.</ListItem></UnorderedList></Paragraph>
+</test>
+
+<test id="linux-icmp-redirect" key="" status="vulnerable-exploited">
+
+<Paragraph>
+	<UnorderedList>
+		<ListItem>The net.ipv4.conf.all.accept_redirects sysctl variable is set to 0, as expected.</ListItem>
+		<ListItem>The net.ipv4.conf.default.accept_redirects sysctl variable is set to 1, expected 0.</ListItem>
+		<ListItem>The net.ipv4.conf.all.secure_redirects sysctl variable is set to 1, expected 0.</ListItem>
+		<ListItem>The net.ipv4.conf.default.secure_redirects sysctl variable is set to 1, expected 0.</ListItem></UnorderedList></Paragraph>
+</test>
+
+<test id="unix-partition-mounting-weakness" key="" status="vulnerable-exploited">
+
+<Paragraph>
+	<Paragraph>The following issues were discovered:  
+/boot partition does not have &#39;nodev&#39; option set.
+/tmp partition does not have &#39;nosuid&#39; option set.
+/tmp partition does not have &#39;noexec&#39; option set.
+/tmp partition does not have &#39;nodev&#39; option set.
+/var partition does not have &#39;nosuid&#39; option set.
+/var partition does not have &#39;noexec&#39; option set.
+/var partition does not have &#39;nodev&#39; option set.
+/var/lib/nfs/rpc_pipefs partition does not have &#39;nodev&#39; option set.</Paragraph></Paragraph>
+</test>
+
+<test id="generic-icmp-timestamp" key="" status="vulnerable-exploited">
+
+<Paragraph>
+	<Paragraph>Able to determine remote system time.</Paragraph></Paragraph>
+</test>
+
+<test id="generic-tcp-timestamp" key="" status="vulnerable-exploited">
+
+<Paragraph>
+	<Paragraph>Able to determine system boot time.</Paragraph></Paragraph>
+</test>
+</tests>
+<endpoints>
+<endpoint protocol="tcp" port="22" status="open">
+<services>
+<service name="SSH">
+<fingerprints>
+<fingerprint  certainty="0.90" vendor="OpenBSD" family="OpenSSH" product="OpenSSH" version="6.6.1"/>
+</fingerprints>
+<configuration>
+<config name="ssh.banner">SSH-2.0-OpenSSH_6.6.1</config>
+<config name="ssh.protocol.version">2.0</config>
+<config name="ssh.rsa.pubkey.fingerprint">DEA754B4E3E51323D3C4B28F70216BFA</config>
+</configuration>
+<tests>
+</tests>
+</service>
+</services>
+</endpoint>
+
+<endpoint protocol="tcp" port="80" status="open">
+<services>
+<service name="HTTP">
+<fingerprints>
+<fingerprint  certainty="0.90" vendor="nginx" family="nginx" product="nginx" version="1.8.0"/>
+</fingerprints>
+<configuration>
+<config name="http.banner">nginx/1.8.0</config>
+<config name="http.banner.server">nginx/1.8.0</config>
+</configuration>
+<tests>
+</tests>
+</service>
+</services>
+</endpoint>
+
+<endpoint protocol="tcp" port="111" status="open">
+<services>
+<service name="portmapper">
+<configuration>
+<config name="program-number">100000</config>
+<config name="program-version">2</config>
+</configuration>
+<tests>
+</tests>
+</service>
+</services>
+</endpoint>
+
+<endpoint protocol="udp" port="111" status="open">
+<services>
+<service name="portmapper">
+<configuration>
+<config name="program-number">100000</config>
+<config name="program-version">2</config>
+</configuration>
+<tests>
+</tests>
+</service>
+</services>
+</endpoint>
+
+<endpoint protocol="udp" port="123" status="open">
+<services>
+<service name="NTP">
+<tests>
+</tests>
+</service>
+</services>
+</endpoint>
+
+<endpoint protocol="tcp" port="443" status="open">
+<services>
+<service name="HTTPS">
+<fingerprints>
+<fingerprint  certainty="0.90" vendor="nginx" family="nginx" product="nginx" version="1.8.0"/>
+</fingerprints>
+<configuration>
+<config name="http.banner">nginx/1.8.0 + Phusion Passenger 5.0.22</config>
+<config name="http.banner.server">nginx/1.8.0 + Phusion Passenger 5.0.22</config>
+<config name="http.banner.x-powered-by">Phusion Passenger 5.0.22</config>
+<config name="ssl">true</config>
+<config name="ssl.cert.chainerror">[Path does not chain with any of the trust anchors]</config>
+<config name="ssl.cert.issuer.dn">EMAILADDRESS=devops@broadinstitute.org, CN=docker-host, OU=BITS DevOps, O=Broad Institute, L=Cambridge, ST=Massachusetts, C=US</config>
+<config name="ssl.cert.key.alg.name">RSA</config>
+<config name="ssl.cert.key.rsa.modulusBits">4096</config>
+<config name="ssl.cert.not.valid.after">Thu, 13 Apr 2017 13:21:01 EDT</config>
+<config name="ssl.cert.not.valid.before">Wed, 13 Apr 2016 13:21:01 EDT</config>
+<config name="ssl.cert.selfsigned">true</config>
+<config name="ssl.cert.serial.number">10009574377780391871</config>
+<config name="ssl.cert.sha1.fingerprint">ad1a1dd456e08afea29e9276c25aef52ab6d3ede</config>
+<config name="ssl.cert.sig.alg.name">SHA256withRSA</config>
+<config name="ssl.cert.subject.dn">EMAILADDRESS=devops@broadinstitute.org, CN=docker-host, OU=BITS DevOps, O=Broad Institute, L=Cambridge, ST=Massachusetts, C=US</config>
+<config name="ssl.cert.validchain">false</config>
+<config name="ssl.cert.validsignature">true</config>
+<config name="ssl.cert.version">3</config>
+<config name="ssl.protocols">tlsv1_2</config>
+<config name="sslv3">false</config>
+<config name="tlsv1_0">false</config>
+<config name="tlsv1_1">false</config>
+<config name="tlsv1_2">true</config>
+<config name="tlsv1_2.ciphers">TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,TLS_DHE_RSA_WITH_AES_128_GCM_SHA256,TLS_DHE_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_DHE_RSA_WITH_AES_128_CBC_SHA256,TLS_DHE_RSA_WITH_AES_128_CBC_SHA,TLS_DHE_RSA_WITH_AES_256_CBC_SHA256,TLS_DHE_RSA_WITH_AES_256_CBC_SHA</config>
+</configuration>
+<tests>
+<test id="certificate-common-name-mismatch" key="" status="vulnerable-exploited">
+
+<Paragraph>
+	<Paragraph>The subject common name found in the X.509 certificate does not seem to match the scan target 10.4.0.53:
+		<UnorderedList>
+			<ListItem>Subject CN docker-host does not match node name 10.4.0.53</ListItem>
+			<ListItem>Subject CN docker-host does not match DNS name bits-docker17.broadinstitute.org</ListItem>
+			<ListItem>Subject CN docker-host could not be resolved to an IP address via DNS lookup</ListItem></UnorderedList></Paragraph></Paragraph>
+</test>
+
+<test id="tls-untrusted-ca" key="" status="vulnerable-exploited">
+
+<Paragraph>
+	<Paragraph>TLS/SSL certificate signed by unknown, untrusted CA: EMAILADDRESS=devops@broadinstitute.org, CN=docker-host, OU=BITS DevOps, O=Broad Institute, L=Cambridge, ST=Massachusetts, C=US -- [Path does not chain with any of the trust anchors].</Paragraph></Paragraph>
+</test>
+
+<test id="ssl-self-signed-certificate" key="" status="vulnerable-exploited">
+
+<Paragraph>
+	<Paragraph>TLS/SSL certificate is self-signed.</Paragraph></Paragraph>
+</test>
+</tests>
+</service>
+</services>
+</endpoint>
+
+<endpoint protocol="tcp" port="955" status="open">
+<services>
+<service name="ypbind">
+<configuration>
+<config name="program-number">100007</config>
+<config name="program-version">1</config>
+</configuration>
+<tests>
+</tests>
+</service>
+</services>
+</endpoint>
+
+<endpoint protocol="tcp" port="4242" status="open">
+<services>
+<service name="&lt;unknown&gt;">
+<configuration>
+<config name="ssl">true</config>
+<config name="ssl.protocols">tlsv1_0,tlsv1_1,tlsv1_2</config>
+<config name="sslv3">false</config>
+<config name="tlsv1_0">true</config>
+<config name="tlsv1_0.ciphers">TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA</config>
+<config name="tlsv1_1">true</config>
+<config name="tlsv1_1.ciphers">TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA</config>
+<config name="tlsv1_2">true</config>
+<config name="tlsv1_2.ciphers">TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA</config>
+</configuration>
+<tests>
+<test id="tlsv1_0-enabled" key="" status="vulnerable-exploited">
+
+<Paragraph>
+	<Paragraph>Successfully connected to 10.4.0.53:4242 over TLSv1.0</Paragraph></Paragraph>
+</test>
+
+<test id="ssl-static-key-ciphers" key="" status="vulnerable-version">
+
+<Paragraph>
+	<UnorderedList>
+		<ListItem>
+			<Paragraph>Negotiated with the following insecure cipher suites: 
+				<UnorderedList>
+					<ListItem>TLS 1.0 ciphers: 
+						<UnorderedList>
+							<ListItem>TLS_RSA_WITH_AES_128_CBC_SHA</ListItem>
+							<ListItem>TLS_RSA_WITH_AES_256_CBC_SHA</ListItem></UnorderedList></ListItem>
+					<ListItem>TLS 1.1 ciphers: 
+						<UnorderedList>
+							<ListItem>TLS_RSA_WITH_AES_128_CBC_SHA</ListItem>
+							<ListItem>TLS_RSA_WITH_AES_256_CBC_SHA</ListItem></UnorderedList></ListItem>
+					<ListItem>TLS 1.2 ciphers: 
+						<UnorderedList>
+							<ListItem>TLS_RSA_WITH_AES_128_CBC_SHA</ListItem>
+							<ListItem>TLS_RSA_WITH_AES_256_CBC_SHA</ListItem></UnorderedList></ListItem></UnorderedList></Paragraph></ListItem></UnorderedList></Paragraph>
+</test>
+
+<test id="tlsv1_1-enabled" key="" status="vulnerable-exploited">
+
+<Paragraph>
+	<Paragraph>Successfully connected to 10.4.0.53:4242 over TLSv1.1</Paragraph></Paragraph>
+</test>
+</tests>
+</service>
+</services>
+</endpoint>
+</endpoints>
+</node>
+</nodes><VulnerabilityDefinitions>
+<vulnerability id="certificate-common-name-mismatch" title="X.509 Certificate Subject CN Does Not Match the Entity Name" severity="7" pciSeverity="5" cvssScore="7.1" cvssVector="(AV:N/AC:H/Au:N/C:C/I:C/A:N)" published="20070803T000000000" added="20070803T000000000" modified="20150128T000000000">
+<description>
+
+<ContainerBlockElement>
+    
+	<Paragraph>The subject common name (CN) field in the X.509 certificate does not match
+the name of the entity presenting the certificate.</Paragraph>
+
+
+	<Paragraph>Before issuing a certificate, a Certification Authority (CA) must check the
+identity of the entity requesting the certificate, as specified in the CA&#39;s
+Certification Practice Statement (CPS). Thus, standard certificate validation
+procedures require the subject CN field of a certificate to match the actual
+name of the entity presenting the certificate. For example, in a certificate
+presented by &quot;https://www.example.com/&quot;, the CN should be &quot;www.example.com&quot;.
+</Paragraph>
+
+
+	<Paragraph>In order to detect and prevent active eavesdropping attacks, the validity of
+a certificate must be verified, or else an attacker could then launch a
+man-in-the-middle attack and gain full control of the data stream. Of
+particular importance is the validity of the subject&#39;s CN, that should match
+the name of the entity (hostname).</Paragraph>
+
+
+	<Paragraph>A CN mismatch most often occurs due to a configuration error, though it can
+also indicate that a man-in-the-middle attack is being conducted.</Paragraph>
+  </ContainerBlockElement></description>
+<references>
+</references><tags>
+<tag>HTTP</tag>
+<tag>Web</tag>
+</tags>
+<solution>
+
+<ContainerBlockElement>
+	<Paragraph>
+        The subject&#39;s common name (CN) field in the X.509 certificate should be fixed
+to reflect the name of the entity presenting the certificate (e.g., the
+hostname). This is done by generating a new certificate usually signed by a
+Certification Authority (CA) trusted by both the client and server.
+      </Paragraph></ContainerBlockElement></solution>
+</vulnerability>
+
+<vulnerability id="generic-icmp-timestamp" title="ICMP timestamp response" severity="1" pciSeverity="1" cvssScore="0.0" cvssVector="(AV:L/AC:L/Au:N/C:N/I:N/A:N)" published="19970801T000000000" added="20041101T000000000" modified="20131204T000000000">
+<description>
+
+<ContainerBlockElement>
+    
+	<Paragraph>The remote host responded to an ICMP timestamp request.  The ICMP timestamp response
+      contains the remote host&#39;s date and time.  This information could theoretically be
+      used against some systems to exploit weak time-based random number generators in
+      other services.</Paragraph>
+    
+
+	<Paragraph>In addition, the versions of some operating systems can be accurately fingerprinted
+      by analyzing their responses to invalid ICMP timestamp requests.</Paragraph>
+  </ContainerBlockElement></description>
+<references>
+<reference source="CVE">CVE-1999-0524</reference>
+<reference source="OSVDB">95</reference>
+<reference source="XF">306</reference>
+<reference source="XF">322</reference>
+</references><tags>
+<tag>Network</tag>
+</tags>
+<solution>
+
+<ContainerBlockElement>
+	<UnorderedList>
+		<ListItem>
+			<Paragraph>HP-UX</Paragraph>
+			<Paragraph>
+				<Paragraph>Execute the following command:</Paragraph>
+				<Paragraph preFormat="true">   ndd -set /dev/ip ip_respond_to_timestamp_broadcast 0</Paragraph>
+				<Paragraph>The easiest and most effective solution is to configure your
+    firewall to block incoming and outgoing ICMP packets with ICMP
+    types 13 (timestamp request) and 14 (timestamp response).</Paragraph></Paragraph></ListItem>
+		<ListItem>
+			<Paragraph>Cisco IOS</Paragraph>
+			<Paragraph>
+				<Paragraph>Use ACLs to block ICMP types 13 and 14.  For example:</Paragraph>
+				<Paragraph preformat="true">   deny icmp any any 13</Paragraph>
+				<Paragraph preformat="true">   deny icmp any any 14</Paragraph>
+				<Paragraph>Note that it is generally preferable to use ACLs that block everything
+    by default and then selectively allow certain types of traffic in.  For
+    example, block everything and then only allow ICMP unreachable, ICMP
+    echo reply, ICMP time exceeded, and ICMP source quench:</Paragraph>
+				<Paragraph preformat="true">   permit icmp any any unreachable</Paragraph>
+				<Paragraph preformat="true">   permit icmp any any echo-reply</Paragraph>
+				<Paragraph preformat="true">   permit icmp any any time-exceeded</Paragraph>
+				<Paragraph preformat="true">   permit icmp any any source-quench</Paragraph>
+				<Paragraph>The easiest and most effective solution is to configure your
+    firewall to block incoming and outgoing ICMP packets with ICMP
+    types 13 (timestamp request) and 14 (timestamp response).</Paragraph></Paragraph></ListItem>
+		<ListItem>
+			<Paragraph>SGI Irix</Paragraph>
+			<Paragraph>
+				<Paragraph>IRIX does not offer a way to disable ICMP timestamp responses.
+    Therefore, you should block ICMP on the affected host using ipfilterd,
+    and/or block it at any external firewalls.</Paragraph>
+				<Paragraph>The easiest and most effective solution is to configure your
+    firewall to block incoming and outgoing ICMP packets with ICMP
+    types 13 (timestamp request) and 14 (timestamp response).</Paragraph></Paragraph></ListItem>
+		<ListItem>
+			<Paragraph>Linux</Paragraph>
+			<Paragraph>
+				<Paragraph>Linux offers neither a sysctl nor a /proc/sys/net/ipv4 interface
+    to disable ICMP timestamp responses.  Therefore, you should block
+    ICMP on the affected host using iptables, and/or block it at the
+    firewall. For example:</Paragraph>
+				<Paragraph preformat="true">   ipchains -A input -p icmp --icmp-type timestamp-request -j DROP</Paragraph>
+				<Paragraph preformat="true">   ipchains -A output -p icmp --icmp-type timestamp-reply -j DROP</Paragraph>
+				<Paragraph>The easiest and most effective solution is to configure your
+    firewall to block incoming and outgoing ICMP packets with ICMP
+    types 13 (timestamp request) and 14 (timestamp response).</Paragraph></Paragraph></ListItem>
+		<ListItem>
+			<Paragraph>Microsoft Windows NT, Microsoft Windows NT Workstation, Microsoft Windows NT Server, Microsoft Windows NT Advanced Server, Microsoft Windows NT Server, Enterprise Edition, Microsoft Windows NT Server, Terminal Server Edition</Paragraph>
+			<Paragraph>
+				<Paragraph>Windows NT 4 does not provide a way to block ICMP packets.
+    Therefore, you should block them at the firewall.</Paragraph>
+				<Paragraph>The easiest and most effective solution is to configure your
+    firewall to block incoming and outgoing ICMP packets with ICMP
+    types 13 (timestamp request) and 14 (timestamp response).</Paragraph></Paragraph></ListItem>
+		<ListItem>
+			<Paragraph>OpenBSD</Paragraph>
+			<Paragraph>
+				<Paragraph>Set the &quot;net.inet.icmp.tstamprepl&quot; sysctl variable to 0.</Paragraph>
+				<Paragraph preformat="true">   sysctl -w net.inet.icmp.tstamprepl=0</Paragraph>
+				<Paragraph>The easiest and most effective solution is to configure your
+    firewall to block incoming and outgoing ICMP packets with ICMP
+    types 13 (timestamp request) and 14 (timestamp response).</Paragraph></Paragraph></ListItem>
+		<ListItem>
+			<Paragraph>Cisco PIX</Paragraph>
+			<Paragraph>
+				<Paragraph>A properly configured PIX firewall should never respond to ICMP
+    packets on its external interface.  In PIX Software versions 4.1(6)
+    until 5.2.1, ICMP traffic to the PIX&#39;s internal interface is
+    permitted; the PIX cannot be configured to NOT respond.  Beginning in
+    PIX Software version 5.2.1, ICMP is still permitted on the internal
+    interface by default, but ICMP responses from its internal interfaces
+    can be disabled with the icmp command, as follows, where &lt;inside&gt;
+    is the name of the internal interface:</Paragraph>
+				<Paragraph preformat="true">   icmp deny any 13 &lt;inside&gt;</Paragraph>
+				<Paragraph preformat="true">   icmp deny any 14 &lt;inside&gt;</Paragraph>
+				<Paragraph>Don&#39;t forget to save the configuration when you are finished.</Paragraph>
+				<Paragraph>See Cisco&#39;s support document
+    
+				<URLLink LinkURL="http://www.cisco.com/warp/public/110/31.html" href="http://www.cisco.com/warp/public/110/31.html" LinkTitle="http://www.cisco.com/warp/public/110/31.html">Handling ICMP Pings with the PIX Firewall</URLLink>
+    for more information.</Paragraph>
+				<Paragraph>The easiest and most effective solution is to configure your
+    firewall to block incoming and outgoing ICMP packets with ICMP
+    types 13 (timestamp request) and 14 (timestamp response).</Paragraph></Paragraph></ListItem>
+		<ListItem>
+			<Paragraph>Sun Solaris</Paragraph>
+			<Paragraph>
+				<Paragraph>Execute the following commands:</Paragraph>
+				<Paragraph preformat="true">   /usr/sbin/ndd -set /dev/ip ip_respond_to_timestamp 0</Paragraph>
+				<Paragraph preformat="true">   /usr/sbin/ndd -set /dev/ip ip_respond_to_timestamp_broadcast 0</Paragraph>
+				<Paragraph>The easiest and most effective solution is to configure your
+    firewall to block incoming and outgoing ICMP packets with ICMP
+    types 13 (timestamp request) and 14 (timestamp response).</Paragraph></Paragraph></ListItem>
+		<ListItem>
+			<Paragraph>Microsoft Windows 2000, Microsoft Windows 2000 Professional, Microsoft Windows 2000 Server, Microsoft Windows 2000 Advanced Server, Microsoft Windows 2000 Datacenter Server</Paragraph>
+			<Paragraph>
+				<Paragraph>Use the IPSec filter feature to define and apply an IP filter list
+    that blocks ICMP types 13 and 14.  Note that the standard TCP/IP
+    blocking capability under the &quot;Networking and Dialup
+    Connections&quot; control panel is NOT capable of blocking ICMP (only
+    TCP and UDP). The IPSec filter features, while they may seem strictly
+    related to the IPSec standards, will allow you to selectively block
+    these ICMP packets.  See
+    
+				<URLLink LinkURL="http://support.microsoft.com/kb/313190" href="http://support.microsoft.com/kb/313190" LinkTitle="http://support.microsoft.com/kb/313190"></URLLink>
+    for more information.</Paragraph>
+				<Paragraph>The easiest and most effective solution is to configure your
+    firewall to block incoming and outgoing ICMP packets with ICMP
+    types 13 (timestamp request) and 14 (timestamp response).</Paragraph></Paragraph></ListItem>
+		<ListItem>
+			<Paragraph>Microsoft Windows XP, Microsoft Windows XP Home, Microsoft Windows XP Professional, Microsoft Windows Server 2003, Microsoft Windows Server 2003, Standard Edition, Microsoft Windows Server 2003, Enterprise Edition, Microsoft Windows Server 2003, Datacenter Edition, Microsoft Windows Server 2003, Web Edition, Microsoft Windows Small Business Server 2003</Paragraph>
+			<Paragraph>
+				<Paragraph>ICMP timestamp responses can be disabled by deselecting the &quot;allow incoming timestamp request&quot;
+       option in the ICMP configuration panel of Windows Firewall.</Paragraph>
+				<OrderedList>
+					<ListItem>Go to the Network Connections control panel.</ListItem>
+					<ListItem>Right click on the network adapter and select &quot;properties&quot;, or select the internet adapter and select File-&gt;Properties.</ListItem>
+					<ListItem>Select the &quot;Advanced&quot; tab.</ListItem>
+					<ListItem>In the Windows Firewall box, select &quot;Settings&quot;.</ListItem>
+					<ListItem>Select the &quot;General&quot; tab.</ListItem>
+					<ListItem>Enable the firewall by selecting the &quot;on (recommended)&quot; option.</ListItem>
+					<ListItem>Select the &quot;Advanced&quot; tab.</ListItem>
+					<ListItem>In the ICMP box, select &quot;Settings&quot;.</ListItem>
+					<ListItem>Deselect (uncheck) the &quot;Allow incoming timestamp request&quot; option.</ListItem>
+					<ListItem>Select &quot;OK&quot; to exit the ICMP Settings dialog and save the settings.</ListItem>
+					<ListItem>Select &quot;OK&quot; to exit the Windows Firewall dialog and save the settings.</ListItem>
+					<ListItem>Select &quot;OK&quot; to exit the internet adapter dialog.</ListItem></OrderedList>
+				<Paragraph>For more information, see:
+    
+				<URLLink LinkURL="http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/hnw_understanding_firewall.mspx?mfr=true" href="http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/hnw_understanding_firewall.mspx?mfr=true" LinkTitle="http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/hnw_understanding_firewall.mspx?mfr=true"></URLLink></Paragraph></Paragraph></ListItem>
+		<ListItem>
+			<Paragraph>Microsoft Windows Vista, Microsoft Windows Vista Home, Basic Edition, Microsoft Windows Vista Home, Basic N Edition, Microsoft Windows Vista Home, Premium Edition, Microsoft Windows Vista Ultimate Edition, Microsoft Windows Vista Enterprise Edition, Microsoft Windows Vista Business Edition, Microsoft Windows Vista Business N Edition, Microsoft Windows Vista Starter Edition, Microsoft Windows Server 2008, Microsoft Windows Server 2008 Standard Edition, Microsoft Windows Server 2008 Enterprise Edition, Microsoft Windows Server 2008 Datacenter Edition, Microsoft Windows Server 2008 HPC Edition, Microsoft Windows Server 2008 Web Edition, Microsoft Windows Server 2008 Storage Edition, Microsoft Windows Small Business Server 2008, Microsoft Windows Essential Business Server 2008</Paragraph>
+			<Paragraph>
+				<Paragraph>ICMP timestamp responses can be disabled via the netsh command line utility.</Paragraph>
+				<OrderedList>
+					<ListItem>Go to the Windows Control Panel.</ListItem>
+					<ListItem>Select &quot;Windows Firewall&quot;.</ListItem>
+					<ListItem>In the Windows Firewall box, select &quot;Change Settings&quot;.</ListItem>
+					<ListItem>Enable the firewall by selecting the &quot;on (recommended)&quot; option.</ListItem>
+					<ListItem>Open a Command Prompt.</ListItem>
+					<ListItem>Enter &quot;netsh firewall set icmpsetting 13 disable&quot;</ListItem></OrderedList>
+				<Paragraph>For more information, see:
+    
+				<URLLink LinkURL="http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/hnw_understanding_firewall.mspx?mfr=true" href="http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/hnw_understanding_firewall.mspx?mfr=true" LinkTitle="http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/hnw_understanding_firewall.mspx?mfr=true"></URLLink></Paragraph></Paragraph></ListItem>
+		<ListItem>
+			<Paragraph>
+				<Paragraph>Disable ICMP timestamp replies for the device. If the device does not support
+    this level of configuration, the easiest and most effective solution is to
+    configure your firewall to block incoming and outgoing ICMP packets with ICMP
+    types 13 (timestamp request) and 14 (timestamp response).</Paragraph></Paragraph></ListItem></UnorderedList></ContainerBlockElement></solution>
+</vulnerability>
+
+<vulnerability id="generic-ip-source-routing-enabled" title="IP Source Routing Enabled" severity="8" pciSeverity="5" cvssScore="7.5" cvssVector="(AV:N/AC:L/Au:N/C:P/I:P/A:P)" published="19990920T000000000" added="20041101T000000000" modified="20160629T000000000">
+<description>
+
+<ContainerBlockElement>
+    
+	<Paragraph>The host is configured to honor IP source routing options.  Source routing
+      is a feature of the IP protocol which allows the sender of a packet to
+      specify which route the packet should take on the way to its destination (and
+      on the way back).  Source routing was originally designed to be used when
+      a host did not have proper default routes in its routing table.  However,
+      source routing is rarely used for legitimate purposes nowadays.  Attackers
+      can abuse source routing to bypass firewalls or to map your network.</Paragraph>
+  </ContainerBlockElement></description>
+<references>
+<reference source="BID">646</reference>
+<reference source="CVE">CVE-1999-0510</reference>
+<reference source="CVE">CVE-1999-0909</reference>
+<reference source="MS">MS99-038</reference>
+<reference source="MSKB">238453</reference>
+<reference source="URL">https://dl.packetstormsecurity.net/advisories/nai/nai.99-09-20.windows_ip_source_routing</reference>
+</references><tags>
+<tag>Network</tag>
+</tags>
+<solution>
+
+<ContainerBlockElement>
+	<Paragraph>
+		<Paragraph>Disable IP source routing on your operating system.</Paragraph>
+		<Paragraph>For Windows systems ensure the following registry keys are set:</Paragraph>
+		<UnorderedList>
+			<ListItem>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\DisableIPSourceRouting is set to 2</ListItem>
+			<ListItem>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters\DisableIPSourceRouting is set to 2</ListItem></UnorderedList>
+		<Paragraph>For Linux systems ensure the following sysctl values are set:</Paragraph>
+		<UnorderedList>
+			<ListItem>net.ipv4.conf.all.accept_source_route=0</ListItem>
+			<ListItem>net.ipv4.conf.all.forwarding=0</ListItem>
+			<ListItem>net.ipv6.conf.all.forwarding=0</ListItem>
+			<ListItem>net.ipv4.conf.all.mc_forwarding=0</ListItem>
+			<ListItem>net.ipv6.conf.all.mc_forwarding=0</ListItem></UnorderedList>
+		<Paragraph>More Linux information can be found at https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Security_Guide/sect-Security_Guide-Server_Security-Disable-Source-Routing.html</Paragraph></Paragraph></ContainerBlockElement></solution>
+</vulnerability>
+
+<vulnerability id="generic-tcp-timestamp" title="TCP timestamp response" severity="1" pciSeverity="1" cvssScore="0.0" cvssVector="(AV:N/AC:L/Au:N/C:N/I:N/A:N)" published="19970801T000000000" added="20110401T000000000" modified="20120712T000000000">
+<description>
+
+<ContainerBlockElement>
+    
+	<Paragraph>
+      The remote host responded with a TCP timestamp.  The TCP timestamp response
+      can be used to approximate the remote host&#39;s uptime, potentially aiding in
+      further attacks.  Additionally, some operating systems can be fingerprinted
+      based on the behavior of their TCP timestamps.
+    </Paragraph>
+  </ContainerBlockElement></description>
+<references>
+<reference source="URL">http://uptime.netcraft.com</reference>
+<reference source="URL">http://www.forensicswiki.org/wiki/TCP_timestamps</reference>
+<reference source="URL">http://www.ietf.org/rfc/rfc1323.txt</reference>
+</references><tags>
+<tag>Network</tag>
+</tags>
+<solution>
+
+<ContainerBlockElement>
+	<UnorderedList>
+		<ListItem>
+			<Paragraph>Cisco</Paragraph>
+			<Paragraph>
+				<Paragraph>
+      Run the following command to disable TCP timestamps:
+    </Paragraph>
+				<Paragraph preformat="true">
+      no ip tcp timestamp
+    </Paragraph></Paragraph></ListItem>
+		<ListItem>
+			<Paragraph>FreeBSD</Paragraph>
+			<Paragraph>
+				<Paragraph>
+      Set the value of net.inet.tcp.rfc1323 to 0 by running the 
+      following command:
+    </Paragraph>
+				<Paragraph preformat="true">
+      sysctl -w net.inet.tcp.rfc1323=0
+    </Paragraph>
+				<Paragraph>
+      Additionally, put the following value in the default sysctl
+      configuration file, generally sysctl.conf:
+    </Paragraph>
+				<Paragraph preformat="true">
+      net.inet.tcp.rfc1323=0
+    </Paragraph></Paragraph></ListItem>
+		<ListItem>
+			<Paragraph>Linux</Paragraph>
+			<Paragraph>
+				<Paragraph>
+      Set the value of net.ipv4.tcp_timestamps to 0 by running the 
+      following command:
+    </Paragraph>
+				<Paragraph preformat="true">
+      sysctl -w net.ipv4.tcp_timestamps=0
+    </Paragraph>
+				<Paragraph>
+      Additionally, put the following value in the default sysctl
+      configuration file, generally sysctl.conf:
+    </Paragraph>
+				<Paragraph preformat="true">
+      net.ipv4.tcp_timestamps=0
+    </Paragraph></Paragraph></ListItem>
+		<ListItem>
+			<Paragraph>OpenBSD</Paragraph>
+			<Paragraph>
+				<Paragraph>
+      Set the value of net.inet.tcp.rfc1323 to 0 by running the 
+      following command:
+    </Paragraph>
+				<Paragraph preformat="true">
+      sysctl -w net.inet.tcp.rfc1323=0
+    </Paragraph>
+				<Paragraph>
+      Additionally, put the following value in the default sysctl
+      configuration file, generally sysctl.conf:
+    </Paragraph>
+				<Paragraph preformat="true">
+      net.inet.tcp.rfc1323=0
+    </Paragraph></Paragraph></ListItem>
+		<ListItem>
+			<Paragraph>Microsoft Windows NT, Microsoft Windows NT Workstation, Microsoft Windows NT Server, Microsoft Windows NT Advanced Server, Microsoft Windows NT Server, Enterprise Edition, Microsoft Windows NT Server, Terminal Server Edition, Microsoft Windows 95, Microsoft Windows 98, Microsoft Windows 98SE, Microsoft Windows ME, Microsoft Windows 2000, Microsoft Windows 2000 Professional, Microsoft Windows 2000 Server, Microsoft Windows 2000 Advanced Server, Microsoft Windows 2000 Datacenter Server, Microsoft Windows XP, Microsoft Windows XP Home, Microsoft Windows XP Professional, Microsoft Windows XP Tablet PC Edition, Microsoft Windows CE, Microsoft Windows Server 2003, Microsoft Windows Server 2003, Standard Edition, Microsoft Windows Server 2003, Enterprise Edition, Microsoft Windows Server 2003, Datacenter Edition, Microsoft Windows Server 2003, Web Edition, Microsoft Windows Small Business Server 2003, Microsoft Windows Server 2003 R2, Microsoft Windows Server 2003 R2, Standard Edition, Microsoft Windows Server 2003 R2, Enterprise Edition, Microsoft Windows Server 2003 R2, Datacenter Edition, Microsoft Windows Server 2003 R2, Web Edition, Microsoft Windows Small Business Server 2003 R2, Microsoft Windows Server 2003 R2, Express Edition, Microsoft Windows Server 2003 R2, Workgroup Edition</Paragraph>
+			<Paragraph>
+				<Paragraph>
+      Set the Tcp1323Opts value in the following key to 1:
+    </Paragraph>
+				<Paragraph preformat="true">
+      HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Tcpip\Parameters
+    </Paragraph></Paragraph></ListItem>
+		<ListItem>
+			<Paragraph>Microsoft Windows Server 2008, Microsoft Windows Server 2008 Standard Edition, Microsoft Windows Server 2008 Enterprise Edition, Microsoft Windows Server 2008 Datacenter Edition, Microsoft Windows Server 2008 HPC Edition, Microsoft Windows Server 2008 Web Edition, Microsoft Windows Server 2008 Storage Edition, Microsoft Windows Small Business Server 2008, Microsoft Windows Essential Business Server 2008, Microsoft Windows Server 2008 R2, Microsoft Windows Server 2008 R2, Standard Edition, Microsoft Windows Server 2008 R2, Enterprise Edition, Microsoft Windows Server 2008 R2, Datacenter Edition, Microsoft Windows Server 2008 R2, Web Edition, Microsoft Windows Server 2012, Microsoft Windows Server 2012 Standard Edition, Microsoft Windows Server 2012 Foundation Edition, Microsoft Windows Server 2012 Essentials Edition, Microsoft Windows Server 2012 Datacenter Edition, Microsoft Windows Storage Server 2012, Microsoft Windows Vista, Microsoft Windows Vista Home, Basic Edition, Microsoft Windows Vista Home, Basic N Edition, Microsoft Windows Vista Home, Premium Edition, Microsoft Windows Vista Ultimate Edition, Microsoft Windows Vista Enterprise Edition, Microsoft Windows Vista Business Edition, Microsoft Windows Vista Business N Edition, Microsoft Windows Vista Starter Edition, Microsoft Windows 7, Microsoft Windows 7 Home, Basic Edition, Microsoft Windows 7 Home, Basic N Edition, Microsoft Windows 7 Home, Premium Edition, Microsoft Windows 7 Home, Premium N Edition, Microsoft Windows 7 Ultimate Edition, Microsoft Windows 7 Ultimate N Edition, Microsoft Windows 7 Enterprise Edition, Microsoft Windows 7 Enterprise N Edition, Microsoft Windows 7 Professional Edition, Microsoft Windows 7 Starter Edition, Microsoft Windows 7 Starter N Edition, Microsoft Windows 8, Microsoft Windows 8 Enterprise Edition, Microsoft Windows 8 Professional Edition, Microsoft Windows 8 RT, Microsoft Windows Longhorn Server Beta</Paragraph>
+			<Paragraph>
+				<Paragraph>
+      TCP timestamps cannot be reliably disabled on this OS.  If TCP timestamps present enough of a risk, put a firewall capable of blocking TCP timestamp packets in front of the affected assets.
+    </Paragraph></Paragraph></ListItem></UnorderedList></ContainerBlockElement></solution>
+</vulnerability>
+
+<vulnerability id="linux-icmp-redirect" title="ICMP redirection enabled" severity="7" pciSeverity="4" cvssScore="6.8" cvssVector="(AV:N/AC:M/Au:N/C:P/I:P/A:P)" published="20031231T000000000" added="20041130T000000000" modified="20120719T000000000">
+<description>
+
+<ContainerBlockElement>
+    
+	<Paragraph>By default, many linux systems enable a feature called ICMP redirection,
+   where the machine will alter its route table in response to an ICMP
+   redirect message from any network device.</Paragraph>
+
+   
+
+	<Paragraph>There is a risk that this feature could be used to subvert a host&#39;s
+   routing table in order to compromise its security (e.g., tricking it
+   into sending packets via a specific route where they may be sniffed
+   or altered).</Paragraph>
+  </ContainerBlockElement></description>
+<references>
+<reference source="BID">6823</reference>
+<reference source="MSKB">293626</reference>
+<reference source="XF">cisco-ios-icmp-redirect(11306)</reference>
+</references><tags>
+<tag>UNIX</tag>
+</tags>
+<solution>
+
+<ContainerBlockElement>
+	<Paragraph>Linux</Paragraph>
+	<Paragraph>
+		<Paragraph>Issue the following commands as root:</Paragraph>
+		<Paragraph preformat="true">   sysctl -w net.ipv4.conf.all.accept_redirects=0</Paragraph>
+		<Paragraph preformat="true">   sysctl -w net.ipv4.conf.default.accept_redirects=0</Paragraph>
+		<Paragraph preformat="true">   sysctl -w net.ipv4.conf.all.secure_redirects=0</Paragraph>
+		<Paragraph preformat="true">   sysctl -w net.ipv4.conf.default.secure_redirects=0</Paragraph>
+		<Paragraph>These settings can be added to /etc/sysctl.conf to make them permanent.</Paragraph></Paragraph></ContainerBlockElement></solution>
+</vulnerability>
+
+<vulnerability id="ssl-self-signed-certificate" title="Self-signed TLS/SSL certificate" severity="4" pciSeverity="3" cvssScore="4.3" cvssVector="(AV:N/AC:M/Au:N/C:N/I:P/A:N)" published="19950101T000000000" added="20090716T000000000" modified="20120712T000000000">
+<description>
+
+<ContainerBlockElement>
+    
+	<Paragraph>
+         The server&#39;s TLS/SSL certificate is self-signed. Self-signed certificates cannot be
+         trusted by default, especially because TLS/SSL man-in-the-middle attacks typically use
+         self-signed certificates to eavesdrop on TLS/SSL connections.
+      </Paragraph>
+  </ContainerBlockElement></description>
+<references>
+</references><tags>
+<tag>Network</tag>
+</tags>
+<solution>
+
+<ContainerBlockElement>
+	<Paragraph>
+		<Paragraph>Obtain a new TLS/SSL server certificate that is NOT self-signed and install it on the server.
+   The exact instructions for obtaining a new certificate depend on your organization&#39;s requirements.
+   Generally, you will need to generate a certificate request and save the request as a file.  This
+   file is then sent to a Certificate Authority (CA) for processing.  Your organization may have its
+   own internal Certificate Authority.  If not, you may have to pay for a certificate from a trusted
+   external Certificate Authority, such as 
+		<URLLink LinkURL="http://www.thawte.com" href="http://www.thawte.com" LinkTitle="http://www.thawte.com">Thawte</URLLink> or
+   
+		<URLLink LinkURL="http://www.verisign.com" href="http://www.verisign.com" LinkTitle="http://www.verisign.com">Verisign</URLLink>.</Paragraph></Paragraph></ContainerBlockElement></solution>
+</vulnerability>
+
+<vulnerability id="ssl-static-key-ciphers" title="TLS/SSL Server Supports The Use of Static Key Ciphers" severity="3" pciSeverity="2" cvssScore="2.6" cvssVector="(AV:N/AC:H/Au:N/C:P/I:N/A:N)" published="20150201T000000000" added="20150930T000000000" modified="20150930T000000000">
+<description>
+
+<ContainerBlockElement>
+    
+	<Paragraph>
+        The server is configured to support ciphers known as static key ciphers. These ciphers don&#39;t support
+        &quot;Forward Secrecy&quot;. In the new specification for HTTP/2, these ciphers have been blacklisted.
+    </Paragraph>
+  </ContainerBlockElement></description>
+<references>
+<reference source="URL">http://www.nist.gov/manuscript-publication-search.cfm?pub_id=915295</reference>
+<reference source="URL">https://wiki.mozilla.org/Security/Server_Side_TLS</reference>
+<reference source="URL">https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet#Rule_-_Only_Support_Strong_Cryptographic_Ciphers</reference>
+<reference source="URL">http://support.microsoft.com/kb/245030/</reference>
+<reference source="URL">https://tools.ietf.org/html/rfc7540/</reference>
+</references><tags>
+<tag>Network</tag>
+</tags>
+<solution>
+
+<ContainerBlockElement>
+	<Paragraph>
+		<Paragraph>Configure the server to disable support for static key cipher suites.</Paragraph>
+		<Paragraph>For Microsoft IIS web servers, see Microsoft Knowledgebase article
+         
+		<URLLink LinkURL="http://support.microsoft.com/kb/245030/" href="http://support.microsoft.com/kb/245030/" LinkTitle="http://support.microsoft.com/kb/245030/">245030</URLLink> for instructions on disabling static key cipher suites.
+      </Paragraph>
+		<Paragraph>The following recommended configuration provides a higher level of security. This configuration is compatible with Firefox 27, Chrome 22, IE 11, Opera 14 and Safari 7. SSLv2, SSLv3, and TLSv1 protocols are not recommended in this configuration. Instead, use TLSv1.1 and TLSv1.2 protocols.</Paragraph>
+		<Paragraph>Refer to your server vendor documentation to apply the recommended cipher configuration:</Paragraph>
+		<Paragraph>ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:DHE-DSS-AES128-GCM-SHA256:kEDH+AESGCM:ECDHE-RSA-AES128-SHA256:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA:ECDHE-ECDSA-AES256-SHA:DHE-RSA-AES128-SHA256:DHE-RSA-AES128-SHA:DHE-DSS-AES128-SHA256:DHE-RSA-AES256-SHA256:DHE-DSS-AES256-SHA:DHE-RSA-AES256-SHA:!aNULL:!eNULL:!EXPORT:!DES:!RC4:!3DES:!MD5:!PSK</Paragraph></Paragraph></ContainerBlockElement></solution>
+</vulnerability>
+
+<vulnerability id="tls-untrusted-ca" title="Untrusted TLS/SSL server X.509 certificate" severity="6" pciSeverity="3" cvssScore="5.8" cvssVector="(AV:N/AC:M/Au:N/C:P/I:P/A:N)" published="19950101T000000000" added="20091019T000000000" modified="20150727T000000000">
+<description>
+
+<ContainerBlockElement>
+    
+	<Paragraph>
+      The server&#39;s TLS/SSL certificate is signed by a Certification Authority (CA) that is not well-known or trusted.
+      This could happen if: the chain/intermediate certificate is missing, expired or has been revoked; the server
+      hostname does not match that configured in the certificate; the time/date is incorrect; or a self-signed
+      certificate is being used. The use of a self-signed certificate is not recommended since it could indicate
+      that a TLS/SSL man-in-the-middle attack is taking place
+    </Paragraph>
+  </ContainerBlockElement></description>
+<references>
+<reference source="URL">http://httpd.apache.org/docs/2.2/mod/mod_ssl.html</reference>
+<reference source="URL">http://nginx.org/en/docs/http/configuring_https_servers.html</reference>
+<reference source="URL">https://support.microsoft.com/en-us/kb/954755</reference>
+</references><tags>
+<tag>Network</tag>
+</tags>
+<solution>
+
+<ContainerBlockElement>
+	<Paragraph>
+		<Paragraph>
+         Ensure the common name (CN) reflects the name of the entity 
+         presenting the certificate (e.g., the hostname).
+         If the certificate(s) or any of the chain certificate(s) have 
+         expired or been revoked, obtain a new certificate from your 
+         Certificate Authority (CA) by following their documentation. 
+         If a self-signed certificate is being used, consider obtaining 
+         a signed certificate from a CA.
+      </Paragraph>
+		<Paragraph>
+         References: 
+         
+		<URLLink LinkURL="https://support.mozilla.org/en-US/kb/connection-untrusted-error-message" href="https://support.mozilla.org/en-US/kb/connection-untrusted-error-message" LinkTitle="https://support.mozilla.org/en-US/kb/connection-untrusted-error-message">Mozilla: Connection Untrusted Error</URLLink>
+		<URLLink LinkURL="https://www.sslshopper.com/ssl-certificate-not-trusted-error.html" href="https://www.sslshopper.com/ssl-certificate-not-trusted-error.html" LinkTitle="https://www.sslshopper.com/ssl-certificate-not-trusted-error.html">SSLShopper: SSL Certificate Not Trusted Error</URLLink>
+		<URLLink LinkURL="https://support.microsoft.com/en-us/kb/954755" href="https://support.microsoft.com/en-us/kb/954755" LinkTitle="https://support.microsoft.com/en-us/kb/954755">Windows/IIS certificate chain config</URLLink>
+		<URLLink LinkURL="http://httpd.apache.org/docs/2.2/mod/mod_ssl.html" href="http://httpd.apache.org/docs/2.2/mod/mod_ssl.html" LinkTitle="http://httpd.apache.org/docs/2.2/mod/mod_ssl.html">Apache SSL config</URLLink>
+		<URLLink LinkURL="http://nginx.org/en/docs/http/configuring_https_servers.html" href="http://nginx.org/en/docs/http/configuring_https_servers.html" LinkTitle="http://nginx.org/en/docs/http/configuring_https_servers.html">Nginx SSL config</URLLink>
+		<URLLink LinkURL="https://certificatechain.io/" href="https://certificatechain.io/" LinkTitle="https://certificatechain.io/">CertificateChain.io</URLLink></Paragraph></Paragraph></ContainerBlockElement></solution>
+</vulnerability>
+
+<vulnerability id="tlsv1_0-enabled" title="TLS Server Supports TLS version 1.0" severity="4" pciSeverity="3" cvssScore="4.3" cvssVector="(AV:N/AC:M/Au:N/C:P/I:N/A:N)" published="20141014T000000000" added="20151112T000000000" modified="20151112T000000000">
+<description>
+
+<ContainerBlockElement>
+    
+	<Paragraph>The PCI (Payment Card Industry) Data Security Standard requires a minimum of TLS v1.1
+    and recommends TLS v1.2. In addition, FIPS 140-2 standard requires a minimum of
+    TLS v1.1 and recommends TLS v1.2.</Paragraph>
+  </ContainerBlockElement></description>
+<references>
+<reference source="URL">https://www.pcisecuritystandards.org/documents/Migrating_from_SSL_Early_TLS_Information%20Supplement_v1.pdf</reference>
+<reference source="URL">http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r1.pdf</reference>
+</references><tags>
+<tag>Network</tag>
+</tags>
+<solution>
+
+<ContainerBlockElement>
+	<Paragraph>
+		<Paragraph>Configure the server to require clients to use TLS version 1.2 using Authenticated Encryption with Associated Data (AEAD) capable ciphers.</Paragraph></Paragraph></ContainerBlockElement></solution>
+</vulnerability>
+
+<vulnerability id="tlsv1_1-enabled" title="TLS Server Supports TLS version 1.1" severity="3" pciSeverity="2" cvssScore="2.6" cvssVector="(AV:N/AC:H/Au:N/C:P/I:N/A:N)" published="20141014T000000000" added="20151112T000000000" modified="20151112T000000000">
+<description>
+
+<ContainerBlockElement>
+    
+	<Paragraph>The PCI (Payment Card Industry) Data Security Standard requires a minimum of TLS v1.1
+    and recommends TLS v1.2. In addition, FIPS 140-2 standard requires a minimum of
+    TLS v1.1 and recommends TLS v1.2.</Paragraph>
+  </ContainerBlockElement></description>
+<references>
+<reference source="URL">https://www.pcisecuritystandards.org/documents/Migrating_from_SSL_Early_TLS_Information%20Supplement_v1.pdf</reference>
+<reference source="URL">http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r1.pdf</reference>
+</references><tags>
+<tag>Network</tag>
+</tags>
+<solution>
+
+<ContainerBlockElement>
+	<Paragraph>
+		<Paragraph>Configure the server to require clients to use TLS version 1.2 using Authenticated Encryption with Associated Data (AEAD) capable ciphers.</Paragraph></Paragraph></ContainerBlockElement></solution>
+</vulnerability>
+
+<vulnerability id="unix-partition-mounting-weakness" title="Partition Mounting Weakness" severity="2" pciSeverity="1" cvssScore="1.9" cvssVector="(AV:L/AC:M/Au:N/C:P/I:N/A:N)" published="20050115T000000000" added="20050115T000000000" modified="20131204T000000000">
+<description>
+
+<ContainerBlockElement>
+    
+	<Paragraph>One or more of the system&#39;s partitions are mounted without certain 
+      hardening options enabled.  While this is not a definite vulnerability 
+      on its own, system security may be improved by employing hardening techniques.</Paragraph>
+  </ContainerBlockElement></description>
+<references>
+</references><tags>
+<tag>UNIX</tag>
+</tags>
+<solution>
+
+<ContainerBlockElement>
+	<Paragraph>
+		<Paragraph>The specific way to modify the partition mount options varies from 
+         system to system.  Consult your operating system&#39;s manual or mount man 
+         page.</Paragraph></Paragraph></ContainerBlockElement></solution>
+</vulnerability>
+</VulnerabilityDefinitions>
+</NexposeReport>
