@@ -1,1 +1,0 @@
-<LoginResponse success="1" session-id="DFA35AFCCB02BFDFCB7AE3B27A6C953B89FFD0F1"/>
