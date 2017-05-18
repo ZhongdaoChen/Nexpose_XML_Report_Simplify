@@ -1,3 +1,8 @@
+'''
+Author: Zhongdao Chen
+Broad Institute
+Last update: May 18th
+'''
 import re
 import xml.etree.ElementTree as ET
 import pyfpdf
