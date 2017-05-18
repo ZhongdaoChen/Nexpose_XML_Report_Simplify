@@ -5,7 +5,7 @@ import pyfpdf
 SEVERITY = 3  # we can define the severity we care about there
 vul_counter = 1
 kernel_security_count = 0
-xml_filename = "xml_69.173.112.38.xml"
+xml_filename = "xml_69.173.125.60.xml"
 app_update = []
 
 pattern_ip = re.compile(r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}')  # Extract IP from file name. I know it's ugly. bite me?
@@ -247,7 +247,7 @@ def export_to_pdf():
                 pdf.set_font("Arial", size=8)
                 pdf.set_text_color(0, 0, 0)
                 pdf.cell(0, 8, line, border=0, ln=1)
-    pdf.output("test.pdf")
+    pdf.output("Simplified_Report.pdf")
 
 
 get_vulnerability_nodes()
