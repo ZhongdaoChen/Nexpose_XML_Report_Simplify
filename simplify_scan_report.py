@@ -1,26 +1,31 @@
-'''
-Author: Zhongdao Chen
-Broad Institute
-Last update: May 18th
-'''
 import re
 import xml.etree.ElementTree as ET
 import pyfpdf
+import sys
+import getopt
 
-SEVERITY = 3  # we can define the severity we care about there
 vul_counter = 1
 kernel_security_count = 0
-xml_filename = "xml_69.173.125.60.xml"
 app_update = []
-
 pattern_ip = re.compile(r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}')  # Extract IP from file name. I know it's ugly. bite me?
-asset_ip = str(pattern_ip.findall(xml_filename)).strip("[]'")
 separator = "\n----------------------------------------------------------------------------" \
             "----------------------------------------------------------------------------" \
             "--------------------------------------------------\n"
 
 system_kernel_vulnerabilities = ["FreeBSD", "Kernel"]  # these words indicate it's a kernel vulnerabilities,
 # we nee to enumerate this list
+
+
+def help_info():
+    print("********************************************************************")
+    print("Nexpose Report Simplifier\n"
+          "Version: 1.0  Author: Zhongdao Chen\n\n"
+          "Usage: simplify_scan_report.py -s [least severity] -i [XML filename]\n"
+          "severity range (1-10), above 3 is critical and severe\n"
+          "For Example: simplify_scan_report.py -s 3 -i xml_69.173.66.124.xml\n\n"
+          "XML filename can also be file path\n"
+          "The simplified report name is Simplified_Report.pdf")
+    print("********************************************************************")
 
 
 def get_kernel_security_count():
@@ -43,18 +48,45 @@ def set_vul_counter():
     vul_counter += 1
 
 
+def set_severity(severity):
+    global SEVERITY
+    SEVERITY = severity
+
+
+def get_severity():
+    global SEVERITY
+    return SEVERITY
+
+
+def set_xml_filename(ifile):
+    global xml_filename
+    xml_filename = ifile
+
+
+def get_xml_filename():
+    global xml_filename
+    return xml_filename
+
+
 def get_vulnerability_nodes():
     tests = []
     fp = open("./output.txt", 'w+')
-    tree = ET.ElementTree(file=xml_filename)
+
+    try:
+        tree = ET.ElementTree(file=get_xml_filename())
+
+    except:
+        print("XML file not found\n")
+        exit(0)
+
     root = tree.getroot()
     for child_of_root in root:
         if child_of_root.tag == "VulnerabilityDefinitions":
             vul_defi_root = child_of_root
             for child_of_vul_defi in vul_defi_root:
-                if child_of_vul_defi.tag == "vulnerability" and int(child_of_vul_defi.get("severity")) >= SEVERITY:
+                if str(child_of_vul_defi.tag) == "vulnerability" \
+                        and int(child_of_vul_defi.get("severity")) >= int(get_severity()):
                     vulnerability_node = child_of_vul_defi
-
                     if "FreeBSD" in vulnerability_node.get("title") or "Kernel" in vulnerability_node.get("title") \
                             or "Red Hat" in vulnerability_node.get("title"):
                         # NEED TO REWRITE THIS PART TO TRAVERSE WORD LIST, OR JUST KEEP THE CODE UGLY
@@ -66,30 +98,24 @@ def get_vulnerability_nodes():
                         continue
 
                     else:
-                        print(get_vul_counter(), ":" + str(vulnerability_node.get("title")), " -- Severity: " +
-                              str(vulnerability_node.get("severity")), file=fp)
+                        fp.write(str(get_vul_counter()) + ":" + str(vulnerability_node.get("title")) + " -- Severity: "
+                                 + str(vulnerability_node.get("severity")) + "\n")
                         set_vul_counter()
-                        #  Need to provide more information from the <test> tag
+                        # Need to provide more information from the <test> tag
                         for test_node in child_node_test.iter():
                             if str(test_node.tag) == "test" and str(test_node.get("id")) == \
                                     str(vulnerability_node.get("id")):
-                                print(test_node.get("id"))
                                 for test_node_child in test_node.iter():
                                     if str(test_node_child.text) != "None":
                                         tests.append(' '.join(str(test_node_child.text).split()))
-                                        print(test_node_child.tag)
-                                    #  STILL HAVE PROBLEM, NEVER HIT
                                     if str(test_node_child.get("LinkURL")) != "None":
                                         tests.append(' '.join(str(test_node_child.get("LinkURL")).split()))
 
                     for current_node in child_of_vul_defi.iter():
-                        #  print(current_node.tag)
                         if current_node.tag == "tags" or current_node.tag == "tag":  # Those tags are not necessary
-                            #  print("hit tags")
                             continue
 
                         elif current_node.tag == "references" or current_node.tag == "reference":
-                            #  print("hit references")
                             continue
 
                         elif current_node.tag == "vulnerability":
@@ -99,7 +125,6 @@ def get_vulnerability_nodes():
                             continue
 
                         elif str(current_node.tag) == "URLLink":
-                            #  print("hit URLLink")
                             if str(current_node.text) != "":
                                 temp = str(current_node.get("LinkURL"))
 
@@ -111,7 +136,7 @@ def get_vulnerability_nodes():
 
                         temp = ' '.join(temp.split())
                         temp = temp.replace("Paragraph{}", "").replace("ContainerBlockElement{}", "")
-                        temp = temp.replace("description{}", "Description: ")
+                        temp = temp.replace("description{}", "Description:")
                         temp = temp.replace("solution{}", "Solution:")
                         temp = temp.replace("references{}", "References:")
                         temp = temp.replace("UnorderedList{}", "")
@@ -122,21 +147,21 @@ def get_vulnerability_nodes():
                         if temp == "":
                             continue
                         else:
-                            print(temp, file=fp)
+                            fp.write(temp + "\n")
                     #  output for <test> if valid
-                    print("Details:", file=fp)
+                    fp.write("Details:\n")
                     for i in tests:
                         if len(i) != 0:
-                            print(i, file=fp)
+                            fp.write(i + "\n")
                     tests = []
                 else:
                     # if the severity is not >= what you set, skip
                     continue
             if len(app_update) != 0:
-                print("\nAlso, the following applications or protocols are outdated. "
-                      "Most of them should be updated automatically after reboot. ", file=fp)
+                fp.write("\nAlso, the following applications or protocols are outdated.v"
+                         "Most of them should be updated automatically after reboot." + "\n")
                 for app in app_update:
-                    print(app, file=fp)
+                    fp.write(app + "\n")
             fp.close()
         elif child_of_root.tag == "nodes":
             child_node_test = child_of_root
@@ -146,13 +171,13 @@ def format_output():
     num = 0
     length_of_line = 0
     index = 0
+    asset_ip = str(pattern_ip.findall(get_xml_filename())).strip("[]'")
     fp_result = open("./final_report.txt", 'w+')
-    print("Scan report for " + str(asset_ip) + "\n", file=fp_result)
+    fp_result.write("Scan report for " + str(asset_ip) + "\n")
     if get_kernel_security_count() >= 1:
-        print("***********IMPORTANT***********\n"
-              "There are", get_kernel_security_count(), "system kernel vulnerabilities! "
-                                                        "Please Reboot to get system patched ASAP."+separator,
-              file=fp_result)
+        fp_result.write(("***********IMPORTANT***********\n " +
+                         "There are " + str(get_kernel_security_count()) + " system kernel vulnerabilities! "
+                         "Please Reboot to get system patched ASAP." + str(separator)) + "\n")
     with open('./output.txt') as fp1:
         for line in fp1:
             if len(line) > 100 and " " not in line:
@@ -167,47 +192,20 @@ def format_output():
                     lst.insert(110, '-\n')
                     lst.insert(220, '-\n')
                     line = ''.join(lst)
-                elif 330 <= len(line) <= 440:
-                    lst = list(line)
-                    lst.insert(110, '-\n')
-                    lst.insert(220, '-\n')
-                    lst.insert(330, '-\n')
-                    line = ''.join(lst)
-                elif 440 <= len(line) <= 550:
-                    lst = list(line)
-                    lst.insert(110, '-\n')
-                    lst.insert(220, '-\n')
-                    lst.insert(330, '-\n')
-                    lst.insert(440, '-\n')
-                    line = ''.join(lst)
-                elif len(line) > 550:
-                    lst = list(line)
-                    lst.insert(110, '-\n')
-                    lst.insert(220, '-\n')
-                    lst.insert(330, '-\n')
-                    lst.insert(440, '-\n')
-                    lst.insert(550, '-\n')
-                    line = ''.join(lst)
             else:
                 lst = line.split(" ")
-                #  print(lst)
                 for word in lst:
-                    #  print(word)
                     if "\n" in word:
                         index = 0
                         length_of_line = 0
-                        #  print("length_now = ", length_of_line)
                         continue
                     else:
                         if length_of_line <= 120:
                             length_of_line += len(str(word))
-                            #  print("length_now = ", length_of_line)
                             index += 1
                         else:
                             lst.insert(index, '\n')
-                            #  print("INDEX:", index)
                             length_of_line = 0
-                            #  print("length_now = ", length_of_line)
                 line = ' '.join(lst)
             num += 1
             if "Severity" in line and num != 1:
@@ -254,7 +252,30 @@ def export_to_pdf():
                 pdf.cell(0, 8, line, border=0, ln=1)
     pdf.output("Simplified_Report.pdf")
 
+def main(argv):
+    if len(argv) != 4:
+        print("INPUT ERROR\n")
+        help_info()
+        exit(0)
+    else:
+        try:
+            opts, args = getopt.getopt(argv, "hs:i:", ["SEVERITY=", "xml_filename="])
+        except getopt.GetoptError:
+            help_info()
+            sys.exit(2)
+        for opt, arg in opts:
+            if opt == "-h":
+                help_info()
+                sys.exit()
+            elif opt in ("-s", "--severity"):
+                set_severity(arg)
+            elif opt in ("-i", "--ifile"):
+                set_xml_filename(arg)
 
-get_vulnerability_nodes()
-format_output()
-export_to_pdf()
+        get_vulnerability_nodes()
+        format_output()
+        export_to_pdf()
+        print("Done :))))\n")
+
+if __name__ == "__main__":
+    main(sys.argv[1:])
