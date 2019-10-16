@@ -7,7 +7,7 @@ import getopt
 vul_counter = 1
 kernel_security_count = 0
 app_update = []
-pattern_ip = re.compile(r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}')  # Extract IP from file name. I know it's ugly. bite me?
+pattern_ip = re.compile(r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}')  # Extract IP from file name. I know it's ugly. 
 separator = "\n----------------------------------------------------------------------------" \
             "----------------------------------------------------------------------------" \
             "--------------------------------------------------\n"
