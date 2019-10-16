@@ -89,7 +89,7 @@ def get_vulnerability_nodes():
                     vulnerability_node = child_of_vul_defi
                     if "FreeBSD" in vulnerability_node.get("title") or "Kernel" in vulnerability_node.get("title") \
                             or "Red Hat" in vulnerability_node.get("title"):
-                        # NEED TO REWRITE THIS PART TO TRAVERSE WORD LIST, OR JUST KEEP THE CODE UGLY
+                        # NEED TO REWRITE THIS PART TO TRAVERSE WORD LIST, LET'S JUST KEEP THE CODE UGLY FOR NOW
                         set_kernel_security_count()
                         continue
 
